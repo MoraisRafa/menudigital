@@ -1,7 +1,7 @@
 <h1 align="center"> Menu digital </h1>
-<p  align="center">
-<img  src="./assets/screenshot.png"  alt="Menudigital"  />
-<img  src="./assets/screenshot1.png"  alt="Menudigital"  />
+<p align="center">
+<img  src="./assets/Screenshot.png"  alt="Menudigital" width = "300px"  />
+<img  src="./assets/Screenshot1.png"  alt="Menudigital" width = "300px" />
 </p>
 
 ## 💻 Sobre o projeto
