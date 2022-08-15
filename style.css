@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Roboto:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    max-width: 360px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #fff;
+}
+
+.headerLogo img {
+    width: 300px;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.categories {
+    padding: .8rem;
+}
+
+.menuTitle h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.products {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+table {
+    width: 280px;
+}
+
+.space {
+    width: 200px;
+    height: 5px;
+    border-top: 2px dotted #fff;
+    margin-top: 15px;
+}
+
+.promo {
+    border-left: 2px dotted #fff;
+    border-bottom: 2px dotted #fff;
+    width: 200px;
+    height: 130px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    margin-left: -25px;
+}
+
+.promo img {
+    width: 140px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: -45px;   
+}
+
+.promo h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: orange;
+    font-size: 3.2rem;
+    padding-left: 30px;
+}
+.promo h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: orange;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.combo {
+    border: 1px solid #fff;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.combo h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: orange;
+    font-size: 1.2rem;
+}
+
+.combo h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+body::-webkit-scrollbar {
+    width: 10px
+} 
+  
+body::-webkit-scrollbar-thumb {   
+background-color: orange;   
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+    margin: 0 auto;
+    display: table;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.2); 
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);      
+    }
+    100% {
+      transform: scale(1.2);      
+    }
+  }
+
+  .socialmedia {
+    width: 100%;
+    background-color: orange;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .socialmedia h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    margin-top: 5px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+  }
+
+  .social img {
+    width: 40px;
+  }
+
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .modal button {
+    border: 2px solid;
+    background: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 2rem;
+    margin-left: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    transition-duration: 0.4s;
+    
+    
+  }
+
+  .modal button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .modal .content {
+    background-color: orange;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal .content h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 5rem;
+  }
+
+  .modal .content h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .modal .content h3 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .modal .content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
